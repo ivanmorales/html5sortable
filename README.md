@@ -59,6 +59,12 @@ $('#sortable1, #sortable2').sortable({
 });
 ```
 
+Use `allowNested` option to allow nesting in child elements
+``` javascript
+$('#sortable1').sortable({
+    allowNested: true
+});
+
 To remove the sortable functionality completely:
 
 ``` javascript
